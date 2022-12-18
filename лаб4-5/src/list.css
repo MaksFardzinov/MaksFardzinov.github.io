@@ -1,0 +1,17 @@
+.table {width: 100%;margin: 40px}
+.table th, .table td {text-align: left;padding: 20px; color: #AE7C78}
+.table td {color: #AE7C78;font-size: 20px;}
+.table .nowrap {white-space: nowrap;}
+.table a {color: #AE7C78;text-decoration: none;border-bottom: 1px dotted #AE7C78;}
+.table a:hover {color: #AE7C78;text-decoration: none;border-bottom: 1px solid transparent;}
+.mt-2 {margin-top: 2em!important;}
+.btn, .btn:hover {display: inline-block;font-size: 16px!important;background: #D89999;padding: 10px 15px;border-radius: 20px;margin: 0 5px;border: none;cursor: pointer;color: white}
+.text-center {text-align: center;}
+form {display: block;width: 100%;max-width: 500px;margin: 0 auto;}
+form label {display: block;width: 100%;font-size: 20px;color: #AE7C78;}
+form input[type="text"] {display: block;width: 100%;font-size: 20px;padding: 10px;}
+form input[type="file"] {display: block;width: 100%;font-size: 20px;padding: 10px; color: #D89999}
+form textarea {display: block;width: 100%;font-size: 20px;padding: 10px;}
+form .forms {padding: 0 0 20px;}
+.preview {display: block;width: 100px;height: 100px;object-fit: contain;}
+h2{color: #D89999}

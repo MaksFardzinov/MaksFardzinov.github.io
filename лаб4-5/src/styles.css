@@ -1,0 +1,635 @@
+/* CSS для навигационнога меню  */
+body{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 1440px;
+    background: white;
+}
+.head_container{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center ;
+    align-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    width: 100%;
+    min-height: 96px;
+    border-bottom:1px solid #AE7C78;
+    border-top:1px solid #AE7C78;
+}
+.container1{
+    display: flex;
+    flex-direction: row ;
+    flex_wrap:nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.catalog{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #AE7C78;
+
+}
+.delivery_and_paid {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #AE7C78;
+}
+.reviews{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #AE7C78;
+}
+.special_offers{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #AE7C78;
+}
+.contacts {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #AE7C78;
+}
+.basket{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #AE7C78;
+}
+/* СSS для букета*/
+.container2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+.bouquetss{
+    margin-top:81px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bouquets{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 59px;
+    color: #AE7C78;
+    margin-bottom: 24px;
+}
+.view_catalog{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+.button1{
+    margin-bottom: 20px;
+    height: 80px;
+    background: #D89999;
+    border-radius: 40px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.picture_one{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.original{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+    margin-bottom: 64px;
+}
+/* CSS для SVG и подписей к ним*/
+.container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.container4{
+    margin-top:117px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+}
+.for_svg{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.fast_delivery{
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.can{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.flowers{
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.careful{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.give{
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.before{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+/* CSS для популярного букета*/
+.container5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.popular_bouquets{
+    width: 80%;
+    margin-top: 53px;
+}
+.popular{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+}
+.text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+.main_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.size{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+.order{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.picture3{
+    width: 100%;
+    height: auto;
+}
+/*CSS для скидок */
+.discounts{
+    width: 90%;
+    margin-top: 94px;
+    background: #AE7C78;
+}
+.discounts10{
+    width: 100%;
+    wrap-option: wrap;
+    text-align: left;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.comment{
+    width: 100%;
+    wrap-option: wrap;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+.picture2{
+    height: 391px;
+    width: 100%;
+    border-radius: 0px;
+}
+/*СSS для отзывовов*/
+.revivess {
+    width: 90%;
+    margin-top: 93px;
+
+}
+.rectangle{
+    margin-top: 93px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #AE7C78;
+}
+.reviews_main{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+}
+.first_review{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+.first_revieww{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+    margin-left: auto;
+    margin-right: auto;
+}
+.second_review{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+.second_revieww{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thrid_review{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color:  #AE7C78;
+}
+.thrid_revieww{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CSS для футера*/
+footer{
+    width: 100%;
+    margin-top: 72px;
+    min-height: 96px;
+    left: 0px;
+    background: #AE7C78;
+}
+.container6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.catalog_footer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.delivery_and_paid_footer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.reviews_footer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.special_offers_footer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.contacts_footer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+@media (max-width:1250px){
+    .container2{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content:space-evenly;
+        align-items: center;
+    }
+    .container4{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content:space-evenly;
+        align-items: center;
+    }
+}
+@media (max-width:700px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .container6{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .container3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .container5{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .nav_text{
+        font-size: 8px;
+        text-align: center;
+    }
+    body{
+        line-height: normal;
+    }
+    .container2{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content:space-evenly;
+        align-items: center;
+    }
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        align-items: center;
+    }
+    .picture_one{
+        height: auto;
+    }
+    .picture2{
+        height: auto;
+    }
+    picture3{
+        height: auto;
+    }
+}
+@media (max-width:200px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .container6{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .container3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .container5{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .nav_text{
+        font-size: 8px;
+        text-align: center;
+    }
+    body{
+        line-height: normal;
+    }
+    .container2{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content:space-evenly;
+        align-items: center;
+    }
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        align-items: center;
+    }
+    .picture_one{
+        height: auto;
+    }
+    .picture2{
+        height: auto;
+    }
+    picture3{
+        height: auto;
+    }
+    .text-200{
+        font-size: 6px;
+        text-align: center;
+    }
+    .navv_text{
+        font-size: 5px;
+        text-align: center;
+    }
+    .text-2000{
+        font-size: 6px;
+        text-align: left;
+    }
+}
